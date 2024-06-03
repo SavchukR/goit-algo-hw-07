@@ -132,7 +132,7 @@ def find_max(node):
     current = node
     while current.right is not None:
         current = current.right
-    return current
+    return current.key
 
 def sum_values(node):
     if node is None:
@@ -143,7 +143,7 @@ def find_min(node):
     current = node
     while current.left is not None:
         current = current.left
-    return current
+    return current.key
 
 # Sample
 root = None
